@@ -2,7 +2,7 @@
   "name": "eighth-march",
   "version": "1.0.1",
   "description": "8 march day project",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "build": "rollup --config"
   },
