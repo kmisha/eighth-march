@@ -4,17 +4,24 @@
   "description": "8 march day project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup --config"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kmisha/eighth-march.git"
   },
-  "keywords": ["Pug", "SASS", "Rollup"],
+  "keywords": [
+    "Pug",
+    "SASS",
+    "Rollup"
+  ],
   "author": "Mikhail Kolesnikov <dadyaaya@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kmisha/eighth-march/issues"
   },
-  "homepage": "https://github.com/kmisha/eighth-march#readme"
+  "homepage": "https://github.com/kmisha/eighth-march#readme",
+  "devDependencies": {
+    "rollup": "^2.40.0"
+  }
 }
