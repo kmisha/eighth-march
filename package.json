@@ -23,6 +23,7 @@
   "homepage": "https://github.com/kmisha/eighth-march#readme",
   "devDependencies": {
     "@rollup/plugin-html": "^0.2.3",
-    "rollup": "^2.40.0"
+    "rollup": "^2.40.0",
+    "rollup-plugin-serve": "^1.1.0"
   }
 }

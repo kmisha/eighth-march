@@ -1,4 +1,5 @@
-const html = require('@rollup/plugin-html')
+import html from '@rollup/plugin-html'
+import serve from 'rollup-plugin-serve'
 
 export default {
     input: 'src/index.js',
@@ -12,6 +13,11 @@ export default {
             meta: [
                 {name: 'viewport', content: 'width=device-width, initial-scale=1'}
             ]
+        }),
+        serve({
+            open: true,
+            port: 8080,
+            contentBase: 'dist'
         })
     ]
 }
